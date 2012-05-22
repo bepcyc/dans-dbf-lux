@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.114" errors="0" skipped="0" tests="8" name="nl.knaw.dans.common.dbflib.TestNumber">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\Java\jdk7\jre\bin"/>
+    <property name="java.vm.version" value="21.0-b17"/>
+    <property name="user.country.format" value="AU"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="c:\vrodionov\git\tks\dans-dbf-lib"/>
+    <property name="java.runtime.version" value="1.7.0-b147"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="c:\vrodionov\git\tks\dans-dbf-lib"/>
+    <property name="java.endorsed.dirs" value="c:\Java\jdk7\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="c:\vrodionov\git\tks\dans-dbf-lib\target\surefire\surefirebooter7963948413357220954.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\VRODIO~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\Java\jdk7\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib64;c:\oracle\product\11.2.0\client_1;c:\oracle\product\11.2.0\client_1\bin;C:\Program Files\ImageMagick-6.7.4-Q16;c:\Java\jdk7\bin;C:\vrodionov\java\android\android-sdk-windows\platform-tools;C:\vrodionov\java\android\android-sdk-windows\tools;C:\vrodionov\java\apache-maven-3.0.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Mercurial\;C:\perl\c\bin;C:\perl\perl\site\bin;C:\perl\perl\bin;C:\Program Files (x86)\gs\gs9.04\bin;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files (x86)\CVS Suite\CVSNT\;C:\Program Files (x86)\CVS Suite\CVSNT\;C:\Program Files\Oracle\VirtualBox;."/>
+    <property name="surefire.test.class.path" value="c:\vrodionov\git\tks\dans-dbf-lib\target\test-classes;c:\vrodionov\git\tks\dans-dbf-lib\target\classes;C:\Users\vrodionov\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\vrodionov"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vrodionov"/>
+    <property name="java.class.path" value="c:\vrodionov\git\tks\dans-dbf-lib\target\test-classes;c:\vrodionov\git\tks\dans-dbf-lib\target\classes;C:\Users\vrodionov\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\Java\jdk7\jre"/>
+    <property name="sun.java.command" value="c:\vrodionov\git\tks\dans-dbf-lib\target\surefire\surefirebooter7963948413357220954.jar c:\vrodionov\git\tks\dans-dbf-lib\target\surefire\surefire1033501276415184447tmp c:\vrodionov\git\tks\dans-dbf-lib\target\surefire\surefire1869783981546116260tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0"/>
+    <property name="java.ext.dirs" value="c:\Java\jdk7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\Java\jdk7\jre\lib\resources.jar;c:\Java\jdk7\jre\lib\rt.jar;c:\Java\jdk7\jre\lib\sunrsasign.jar;c:\Java\jdk7\jre\lib\jsse.jar;c:\Java\jdk7\jre\lib\jce.jar;c:\Java\jdk7\jre\lib\charsets.jar;c:\Java\jdk7\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\vrodionov\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.033" classname="nl.knaw.dans.common.dbflib.TestNumber" name="reading_maximal_and_minimal_values[0]"/>
+  <testcase time="0.01" classname="nl.knaw.dans.common.dbflib.TestNumber" name="writing_maximal_and_minimal_values[0]"/>
+  <testcase time="0.012" classname="nl.knaw.dans.common.dbflib.TestNumber" name="reading_maximal_and_minimal_values[1]"/>
+  <testcase time="0.01" classname="nl.knaw.dans.common.dbflib.TestNumber" name="writing_maximal_and_minimal_values[1]"/>
+  <testcase time="0.014" classname="nl.knaw.dans.common.dbflib.TestNumber" name="reading_maximal_and_minimal_values[2]"/>
+  <testcase time="0.009" classname="nl.knaw.dans.common.dbflib.TestNumber" name="writing_maximal_and_minimal_values[2]"/>
+  <testcase time="0.008" classname="nl.knaw.dans.common.dbflib.TestNumber" name="reading_maximal_and_minimal_values[3]"/>
+  <testcase time="0.009" classname="nl.knaw.dans.common.dbflib.TestNumber" name="writing_maximal_and_minimal_values[3]"/>
+</testsuite>
